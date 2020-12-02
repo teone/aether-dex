@@ -1,0 +1,10 @@
+service:
+  type: ClusterIP
+
+env:
+  PHPLDAPADMIN_LDAP_HOSTS: "#PYTHON2BASH:[{'ldap-openldap.default.svc.cluster.local': [{'server': [{'tls': False}]}, {'login': [{'bind_id': 'cn=admin,dc=opennetworking,dc=org'}]}]}]"
+    # - ldap-openldap.default.svc.cluster.local:
+    #   - server:
+    #     - tls: false
+    #   - login:
+    #     - bind_id: cn=admin,dc=opennetworking,dc=org
