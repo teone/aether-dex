@@ -66,7 +66,7 @@ kubectl port-forward $DEX_POD_NAME 32000:5556
 Get the DEX client app to run a test:
 
 ```
-git clone https://github.com/dexidp/dex.git
+git clone https://github.com/dexidp/dex.git && cd dex
 make bin/example-app
 ./bin/example-app --issuer http://dex:32000
 ```
