@@ -1,0 +1,21 @@
+# Sample user (password is 'password')
+dn: cn=Test User,cn=users,dc=opennetworking,dc=org
+cn: Test User
+givenname: Test
+homedirectory: /home/users/tuser
+mail: test@opennetworking.org
+gidNumber: 500
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: User
+uid: tuser
+uidnumber: 1000
+userpassword: {MD5}X03MO1qnZdYdgyfeuILPmQ==
+
+dn: cn=testGroup,cn=groups,dc=opennetworking,dc=org
+cn: testGroup
+gidnumber: 500
+memberUid: tuser
+objectclass: posixGroup
+objectclass: top

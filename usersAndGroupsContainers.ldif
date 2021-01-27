@@ -1,0 +1,9 @@
+dn: cn=groups,dc=opennetworking,dc=org
+cn: groups
+objectclass: organizationalRole
+objectclass: top
+
+dn: cn=users,dc=opennetworking,dc=org
+cn: users
+objectclass: organizationalRole
+objectclass: top
